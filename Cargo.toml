@@ -1,0 +1,11 @@
+[package]
+name = "test-tcp-client"
+version = "0.1.0"
+authors = ["Salvador Guzman <guzmansalv@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "tcp-client"
+path = "src/main.rs"
+
+[dependencies]
